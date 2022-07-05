@@ -24,6 +24,7 @@ jobs:
         shell: bash
   run-windows-command:
     runs-on: windows-latest
+    needs: [run-windows-command]
     steps:
       - name: Directory powershell
         run: get-location
