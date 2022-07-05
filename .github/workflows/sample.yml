@@ -17,3 +17,8 @@ jobs:
           import platform
           print(platform.processor())
         shell: python
+      - name: Bash Command
+        run: |
+          pwd
+          ls
+        shell: bash
