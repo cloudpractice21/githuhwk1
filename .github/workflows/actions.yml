@@ -29,14 +29,4 @@ jobs:
           who-to-greet: Sree
       - name: Log Greetings time
         run: echo "${{ steps.greet.outputs.time }}"
-  build:
-   runs-on: ubuntu-latest
-   steps:
-     - uses: actions/checkout@v1
-     - run: |
-        date > genarated.txt
-        git config user.name sudhakar:
-        git config user.email cloud3practice21@gmail.com
-        git add .
-        git commit -m "genarated"
-        git push origin HEAD:master
+  # Push a commit using the built-in token:: https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
