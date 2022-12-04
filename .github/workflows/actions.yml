@@ -34,7 +34,7 @@ jobs:
    steps:
      - uses: actions/checkout@v1
      - run: |
-        date: > genarated.txt
+        date > genarated.txt
         git config user.name sudhakar:
         git config user.email cloud3practice21@gmail.com
         git add .

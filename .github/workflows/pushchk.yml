@@ -8,7 +8,7 @@ jobs:
    steps:
      - uses: actions/checkout@v1
      - run: |
-        date: > genarated.txt
+        date > genarated.txt
         git config user.name github-action:
         git config user.email github-action@github.com
         git add .
