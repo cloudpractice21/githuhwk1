@@ -8,7 +8,7 @@ jobs:
       needs: [run-windows-command]
       steps:
         - name: echo a string
-          run: echo "hello world sudhakar"
+          run: echo "hello world sudhakar_alavala"
         - name: multiline script
           run: |
             node -v

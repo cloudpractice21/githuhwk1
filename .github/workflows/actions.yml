@@ -22,7 +22,7 @@ jobs:
           echo "${{ github.token }}"
         # git clone git@github:$GITHUB_REPOSITORY
         # git checkout $GITHUB_SHA
-      - name: Simple JS Actions
+      - name: Simple JS Actionsnow
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with: 
