@@ -39,4 +39,4 @@ jobs:
         git config user.email cloud3practice21@gmail.com
         git add .
         git commit -m "genarated"
-        git push origin HEAD:https://github.com/cloudpractice21/githuhwk1.git
+        git push -u origin main
