@@ -1,12 +1,12 @@
 name: Actions workflow
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   run-github-action:
     runs-on: ubuntu-latest
     steps:
-      - name: Lists file
+      - name: Lists files
         run: |
           pwd
           ls
