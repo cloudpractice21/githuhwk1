@@ -1,13 +1,13 @@
 name: Shell Commands
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
     steps:
       - name: echo string
-        run: echo "hello world test for"
+        run: echo "hello world test for sudhakar"
       - name: Multistring Commands
         run: |
           node -v
